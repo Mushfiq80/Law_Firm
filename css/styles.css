@@ -1,4 +1,4 @@
-.section{
+footer, .section{
     margin-top: 120px;
 }
 .text-area{
@@ -47,4 +47,13 @@ body {
     object-fit: cover;
     filter: brightness(0.6);
     
+}
+
+footer a{
+    text-decoration: none;
+    color: aliceblue;
+}
+footer li{
+    
+    list-style: none;
 }

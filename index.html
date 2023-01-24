@@ -14,9 +14,9 @@
     <script src="https://kit.fontawesome.com/e81ca27c24.js" crossorigin="anonymous"></script>
 </head>
 
-<body class="container">
+<body>
     <!-- Header Starts  -->
-    <header>
+    <header class="container">
         <nav class="navbar navbar-expand-lg align-middle">
             <div class="container-fluid d-flex justify-content-between">
                 <a class="navbar-brand" href="#">
@@ -55,7 +55,7 @@
             <div class="bg-image banner rounded" style="background-image: url(images/banner.png);">
                 <div class="color-overlay d-flex justify-content-center align-items-center">
                     <div class="mx-auto text-area">
-                        <h1 class="display-4 fw-semibold mx-5 px-5" ;>We Provide Effective Legal Solutions</h1>
+                        <h1 class="display-5 fw-semibold mx-5 px-lg-3" ;>We Provide Effective Legal Solutions</h1>
                         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae architecto saepe hic
                             obcaecati laboriosam quisquam. At sequi mollitia optio corporis.</p>
                         <form class="d-flex">
@@ -69,7 +69,7 @@
         </section>
     </header>
     <!-- Main Section  -->
-    <main>
+    <main class="container">
         <section class="container w-75 h-100 section">
             <div class="row text-center">
                 <div class="card align-items-center col-12 col-sm-4 p-5 rounded-0"
@@ -114,14 +114,18 @@
                 </div>
             </div>
         </section>
-
+        <!-- Clients review slider  -->
         <section class="container section">
             <div class="mx-auto text-area text-center mb-5">
                 <h1 class="display-4 fw-semibold">What Our Client Say</h1>
-                <p class="fs-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam consequuntur ea in error quaerat!
+                <p class="fs-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam consequuntur ea in error
+                    quaerat!
                     Expedita quod, maxime ex, soluta tempore dolore exercitationem earum consequuntur quos, incidunt
                     quasi molestiae voluptates esse.</p>
             </div>
+
+            <!-- Slider  -->
+
             <div id="carouselExampleCaptions" class="carousel slide">
                 <div class="carousel-indicators">
                     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
@@ -170,13 +174,145 @@
             </div>
 
         </section>
+        <section class="container section">
+            <div class="mx-auto text-center ">
+                <h1>Frequently Asked Any Question</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At officia, laudantium hic omnis mollitia
+                    praesentium vitae. Alias ut non velit!</p>
+            </div>
+            <div class="row align-items-center justify-content-center">
+                <div class="col-12 col-sm-6 ">
+                    <div class="accordion me-5" id="accordionPanelsStayOpenExample">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                                <button class="accordion-button bg-warning-subtle" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne"
+                                    aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                                    Accordion Item #1
+                                </button>
+                            </h2>
+                            <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show"
+                                aria-labelledby="panelsStayOpen-headingOne">
+                                <div class="accordion-body">
+                                    <strong>This is the first item's accordion body.</strong> It is shown by default,
+                                    until
+                                    the collapse plugin adds the appropriate classes that we use to style each element.
+                                    These classes control the overall appearance, as well as the showing and hiding via
+                                    CSS
+                                    transitions. You can modify any of this with custom CSS or overriding our default
+                                    variables. It's also worth noting that just about any HTML can go within the
+                                    <code>.accordion-body</code>, though the transition does limit overflow.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                                <button class="accordion-button collapsed bg-warning-subtle" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo"
+                                    aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                                    Accordion Item #2
+                                </button>
+                            </h2>
+                            <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse"
+                                aria-labelledby="panelsStayOpen-headingTwo">
+                                <div class="accordion-body">
+                                    <strong>This is the second item's accordion body.</strong> It is hidden by default,
+                                    until the collapse plugin adds the appropriate classes that we use to style each
+                                    element. These classes control the overall appearance, as well as the showing and
+                                    hiding
+                                    via CSS transitions. You can modify any of this with custom CSS or overriding our
+                                    default variables. It's also worth noting that just about any HTML can go within the
+                                    <code>.accordion-body</code>, though the transition does limit overflow.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                                <button class="accordion-button collapsed bg-warning-subtle" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree"
+                                    aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                                    Accordion Item #3
+                                </button>
+                            </h2>
+                            <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse"
+                                aria-labelledby="panelsStayOpen-headingThree">
+                                <div class="accordion-body">
+                                    <strong>This is the third item's accordion body.</strong> It is hidden by default,
+                                    until
+                                    the collapse plugin adds the appropriate classes that we use to style each element.
+                                    These classes control the overall appearance, as well as the showing and hiding via
+                                    CSS
+                                    transitions. You can modify any of this with custom CSS or overriding our default
+                                    variables. It's also worth noting that just about any HTML can go within the
+                                    <code>.accordion-body</code>, though the transition does limit overflow.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6">
+                    <img class="container" src="images/faq.png" alt="">
+                </div>
+            </div>
+
+        </section>
+
+        <!-- Bonus section Contact With Us  -->
+        <section class="container section">
+
+        </section>
 
     </main>
     <!-- Footer section  -->
-    <footer>
 
-    </footer>
+    <div class="my-5">
 
+        <footer class="bg-black text-center text-lg-start text-white">
+            <div class="container p-4">
+
+                <div class="row mt-4">
+                    <!--Grid 1 -->
+                    <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                        <img src="images/logo.png" alt="">
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellendus, expedita ducimus.</p>
+                    </div>
+                    <!--Grid 2-->
+
+                    <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                        <h3>Useful Links</h3>
+                        <ul>
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">Blog</a></li>
+                            <li><a href="#">Contact Us</a></li>
+                        </ul>
+                    </div>
+                    <!--Grid 3-->
+
+                    <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                        <h3>Contact Now</h3>
+                        <p>555 4th 5t NW, Washington
+                            DC 20530, United States</p>
+                        <p>+88 01750 000 000 <br>
+                            +88 01750 000 000</p>
+                        <p>
+                            info@gmail.com <br>
+                            info@gmail.com
+                        </p>
+                    </div>
+                    <!--Grid 4-->
+                    <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                        <h3>Subscribe</h3>
+                        <p>Subscribe for our latest & Articles. We Won’t Give You Spam Mails</p>
+                        <div class="input-group text-center">
+                            <input type="email">
+                            <span class="input-group-text"><i class="fa-solid fa-paper-plane"></i></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
 </body>
 
 </html>
